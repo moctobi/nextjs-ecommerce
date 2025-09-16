@@ -32,7 +32,7 @@ export default function RootLayout({
           {`
       (function () {
         var currentUrl = new URL(window.location.href);
-        currentUrl.searchParams.set('licenseId', '91hr77gpv6vc2o1sbgy8n'); // Thay đổi licenseId này để test
+        currentUrl.searchParams.set('licenseId', 't5qmsc85trfrlpevjb3tnq'); // Thay đổi licenseId này để test
         window.history.replaceState({}, '', currentUrl);
 
         var script = document.createElement("script");
