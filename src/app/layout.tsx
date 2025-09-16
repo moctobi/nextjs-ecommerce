@@ -30,7 +30,7 @@ export default function RootLayout({
         {/* Script thêm licenseId và load tracking.js */}
         <Script id="tracking-loader" strategy="afterInteractive">
           {`
-      (function () {
+ (function () {
         var currentUrl = new URL(window.location.href);
         currentUrl.searchParams.set('licenseId', 't5qmsc85trfrlpevjb3tnq'); // Thay đổi licenseId này để test
         window.history.replaceState({}, '', currentUrl);
